@@ -1,11 +1,5 @@
 import random 
 from config import Config
-#		maybe can also use sprites (auto have a hitbox and just set == CELLSIZE) to animate apple
-# 		inherit from Sprite parent class
-		#		Sprite.__init__(self)
-		#		self.image = image.load("filename")
-		#		self.rect = self.image.get_rect()
-
 
 class Apple():
 	def __init__(self):

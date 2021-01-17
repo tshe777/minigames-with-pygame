@@ -108,7 +108,7 @@ class Game():
 		degrees1, degrees2 = 0, 0
 
 		while True:
-			for event in pygame.event.get(): #do I even need this
+			for event in pygame.event.get():
 				if event.type == pygame.KEYDOWN:
 					return
 			self.screen.fill(Config.BACKGROUND_COLOR)

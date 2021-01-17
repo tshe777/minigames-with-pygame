@@ -1,5 +1,3 @@
-	#can also put getters and mutators here if implementing a settings menu
-	#that allows user to customize settings
 class Config():
 	FPS = 15
 	MENU_FPS = 60

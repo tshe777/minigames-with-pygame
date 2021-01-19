@@ -103,8 +103,8 @@ class Game():
 			pygame.quit()
 
 	def showMenu(self):
-		menuSurf1 = self.BASICFONTMENU.render('SNAKE GAME LOOOOL', True, Config.WHITE, Config.RED)
-		menuSurf2 = self.BASICFONTMENU.render('SNAKE GAME LOOOOL', True, Config.GREY)
+		menuSurf1 = self.BASICFONTMENU.render('SNAKE GAME ', True, Config.WHITE, Config.RED)
+		menuSurf2 = self.BASICFONTMENU.render('SNAKE GAME ', True, Config.GREY)
 		degrees1, degrees2 = 0, 0
 
 		while True:
